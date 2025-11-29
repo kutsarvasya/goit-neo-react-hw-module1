@@ -1,0 +1,20 @@
+.itemContainer {
+  display: flex;
+
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+}
+.name {
+  font-weight: 500;
+  font-size: 18px;
+}
+.friendStatus {
+  font-size: 14px;
+}
+.friendStatus.online {
+  color: green;
+}
+.friendStatus.offline {
+  color: red;
+}
